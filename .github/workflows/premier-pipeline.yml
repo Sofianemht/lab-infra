@@ -1,4 +1,4 @@
-name: Premier pipeline
+﻿name: Premier pipeline
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
         run: ls -la
 
       - name: Vérifier que notes.md existe
-        run: test -f notes.md
+        run: test -f fichier-qui-nexiste-pas.md
